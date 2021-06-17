@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+body {
+    background-color: rgb(250, 250, 250);
+    font-family: 'Pangolin', cursive;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+/* 상단바 */
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+.status_bar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+    .logo_text {
+        display: inline;
+        font-size: 23px;
+        font-weight: 500;
+        margin-left: 10px;
+        margin-right: 20px;   
+    }
+
+    .search_bar {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        height: 20px;
+        width: 190px;
+        background-color: rgb(250, 250, 250);
+        border: 2px solid rgb(230, 230, 230);
+        border-radius: 4px;
+    }
+    
+    i {
+        margin: 0 5px;
+    }
+    
+    .user_img {
+        width: 22px;
+        height: 22px;
+        /* padding-top: 5px; */
+        margin: 0 10px;
+        border-radius: 20px;
+    }
+    
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+/* 스토리 바 */
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+.story_bar {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+ .story_bar_case {
+    display: flex;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+ }
+ 
+ .user_con {
+     margin: 0 5px;
+ }
+
+ .story_img {
+     width: 50px;
+     height: 50px;
+     border-radius: 25px;
+     border: 2px solid rgb(226, 81, 105);
+ }
+
+ .user_name {
+     font-size: 11px;
+     text-align: center;
+     margin: auto;
+ }
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+/* 메인 게시물 */
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+.contents {
+    display: inline;
+}
+
+ .user_info {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+ .user_info_case {
+    display: flex;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+ }
+
+ .user_info_img {
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+ }
+
+ .user_info_text {
+     font-weight: 600;
+     font-size: 14px;
+     margin-left: 15px;
+     margin-right: 363px;
+ }
+
+ #icon {
+     margin-top: 17px;
+ }
+
+ .user_post {
+     display: flex;
+     justify-content: center;
+ }
+
+ .content_img {
+     width: 601.5px;
+     height: 600px;
+ }
+
+ 
+ .post_feel {
+    display: flex;
+    justify-content: center;
+ }
+
+ .post_emo {
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    border-left:1px solid rgb(230, 230, 230);
+    border-right:1px solid rgb(230, 230, 230);
+ }
+
+ #emo {
+    margin-left: 465px;
+ }
+
+ .content_coment {
+    display: flex;
+    justify-content: center;
+ }
+
+ .content_like_a {
+    display: flex;
+    padding-right: 439px;
+    background-color: white;
+    border-left:1px solid rgb(230, 230, 230);
+    border-right:1px solid rgb(230, 230, 230);
+ }
+
+ .content_like_b {
+    display: flex;
+    padding-right: 274px;
+    background-color: white;
+    border-left:1px solid rgb(230, 230, 230);
+    border-right:1px solid rgb(230, 230, 230);
+ }
+
+ .content_like_c {
+    display: flex;
+    padding-right: 308px;
+    background-color: white;
+    border-left:1px solid rgb(230, 230, 230);
+    border-right:1px solid rgb(230, 230, 230);
+ }
+
+ .content_like_d {
+    display: flex;
+    padding-right: 309px;
+    background-color: white;
+    border-left:1px solid rgb(230, 230, 230);
+    border-right:1px solid rgb(230, 230, 230);
+ }
+
+ .content_like_e {
+    display: flex;
+    padding-right: 287px;
+    background-color: white;
+    border-left:1px solid rgb(230, 230, 230);
+    border-right:1px solid rgb(230, 230, 230);
+ }
+
+ .content_like_f {
+    display: flex;
+    justify-content: left;
+    padding-right: 572px;
+    background-color: white;
+    color: grey;
+    border-left:1px solid rgb(230, 230, 230);
+    border-right:1px solid rgb(230, 230, 230);
+    border-bottom: 1px solid rgb(230, 230, 230);
+ }
+
+ .content_like_img {
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 15px;
+    margin: 3px;
+ }
+
+ .like_text {
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+ }
+
+ .user_font {
+     font-weight: 600;
+     font-size: 13px;
+     padding-top: 3px;
+     padding-left: 5px;
+ }
+
+ .user_font_a {
+     font-weight: 600;
+     font-size: 13px;
+     padding-top: 3px;
+     padding-bottom: 3px;
+     padding-left: 5px;
+     font-weight: 500;
+     font-size: 8px;
+     text-align: center;
+ }
+
+ .user_font_b {
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 10px;
+
+ }
